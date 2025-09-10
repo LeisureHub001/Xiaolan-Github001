@@ -1,0 +1,975 @@
+[
+  {
+    "id": 100,
+    "name": "亚瑟",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.8
+  },
+  {
+    "id": 101,
+    "name": "程咬金",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 102,
+    "name": "白起",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [116, 117, 118, 119, 120],
+    "tier": 0.9
+  },
+  {
+    "id": 103,
+    "name": "钟无艳",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "JUNGLE", "SUPPORT"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [116, 117, 118, 119, 120],
+    "tier": 0.8
+  },
+  {
+    "id": 104,
+    "name": "吕布",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.9
+  },
+  {
+    "id": 105,
+    "name": "花木兰",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["TOP"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 106,
+    "name": "貂蝉",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["APC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.9
+  },
+  {
+    "id": 107,
+    "name": "露娜",
+    "roles": ["ASSASSIN", "MAGE"],
+    "positions": ["JUNGLE"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 108,
+    "name": "芈月",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["TOP", "APC"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 109,
+    "name": "嬴政",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 110,
+    "name": "武则天",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 111,
+    "name": "王昭君",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 112,
+    "name": "甄姬",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [116, 117, 118, 119, 120],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 113,
+    "name": "小乔",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 114,
+    "name": "妲己",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["APC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.8
+  },
+  {
+    "id": 115,
+    "name": "安琪拉",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 116,
+    "name": "后羿",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [100, 101, 102, 103],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.8
+  },
+  {
+    "id": 117,
+    "name": "孙尚香",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [100, 101, 102, 103],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.9
+  },
+  {
+    "id": 118,
+    "name": "鲁班七号",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [100, 101, 102, 103],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.8
+  },
+  {
+    "id": 119,
+    "name": "狄仁杰",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [121, 122, 123, 124, 125],
+    "tier": 0.8
+  },
+  {
+    "id": 120,
+    "name": "马可波罗",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [100, 101, 102, 103],
+    "synergies": [117, 118, 121, 122],
+    "tier": 0.9
+  },
+  {
+    "id": 121,
+    "name": "张飞",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [140, 141, 142],
+    "synergies": [140, 141, 142, 143],
+    "tier": 0.8
+  },
+  {
+    "id": 122,
+    "name": "牛魔",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [140, 141, 142],
+    "synergies": [140, 141, 142, 143],
+    "tier": 0.8
+  },
+  {
+    "id": 123,
+    "name": "廉颇",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [116, 117, 118, 119, 120],
+    "tier": 0.8
+  },
+  {
+    "id": 124,
+    "name": "夏侯惇",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [106, 107, 140, 141, 142],
+    "synergies": [116, 117, 118, 119, 120],
+    "tier": 0.8
+  },
+  {
+    "id": 125,
+    "name": "赵云",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 126,
+    "name": "韩信",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 127,
+    "name": "李白",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 128,
+    "name": "诸葛亮",
+    "roles": ["MAGE"],
+    "positions": ["APC", "JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 129,
+    "name": "不知火舞",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["APC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 130,
+    "name": "虞姬",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 131,
+    "name": "李元芳",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC", "JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 132,
+    "name": "公孙离",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 133,
+    "name": "伽罗",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 134,
+    "name": "黄忠",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 135,
+    "name": "铠",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 136,
+    "name": "典韦",
+    "roles": ["WARRIOR"],
+    "positions": ["JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 137,
+    "name": "关羽",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.9
+  },
+  {
+    "id": 138,
+    "name": "达摩",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [140, 141, 142, 143],
+    "synergies": [117, 118, 121],
+    "tier": 0.8
+  },
+  {
+    "id": 139,
+    "name": "孙悟空",
+    "roles": ["ASSASSIN", "WARRIOR"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 140,
+    "name": "兰陵王",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 141,
+    "name": "阿轲",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 142,
+    "name": "司马懿",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["APC", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 143,
+    "name": "上官婉儿",
+    "roles": ["MAGE", "ASSASSIN"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 144,
+    "name": "干将莫邪",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 145,
+    "name": "墨子",
+    "roles": ["MAGE", "TANK"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 146,
+    "name": "东皇太一",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 147,
+    "name": "庄周",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 148,
+    "name": "刘禅",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 149,
+    "name": "百里守约",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 150,
+    "name": "成吉思汗",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 151,
+    "name": "孙膑",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 152,
+    "name": "蔡文姬",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 153,
+    "name": "大乔",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 154,
+    "name": "瑶",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 155,
+    "name": "明世隐",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 156,
+    "name": "鬼谷子",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 157,
+    "name": "盾山",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 158,
+    "name": "鲁班大师",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 159,
+    "name": "苏烈",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 160,
+    "name": "太乙真人",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 161,
+    "name": "刘邦",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 162,
+    "name": "桑启",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 163,
+    "name": "朵莉亚",
+    "roles": ["SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 164,
+    "name": "镜",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 165,
+    "name": "澜",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 166,
+    "name": "曜",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 167,
+    "name": "马超",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 168,
+    "name": "蒙恬",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 169,
+    "name": "夏洛特",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 170,
+    "name": "司空震",
+    "roles": ["MAGE", "WARRIOR"],
+    "positions": ["TOP", "APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 171,
+    "name": "云缨",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 172,
+    "name": "暃",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 173,
+    "name": "金蝉",
+    "roles": ["MAGE"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 174,
+    "name": "海月",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 175,
+    "name": "戈娅",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 176,
+    "name": "嫦娥",
+    "roles": ["MAGE", "TANK"],
+    "positions": ["APC", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 177,
+    "name": "杨玉环",
+    "roles": ["MAGE", "SUPPORT"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 178,
+    "name": "弈星",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 179,
+    "name": "沈梦溪",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 180,
+    "name": "米莱狄",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 181,
+    "name": "周瑜",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 182,
+    "name": "高渐离",
+    "roles": ["MAGE"],
+    "positions": ["APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 183,
+    "name": "扁鹊",
+    "roles": ["MAGE", "SUPPORT"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 184,
+    "name": "姜子牙",
+    "roles": ["MAGE", "SUPPORT"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 185,
+    "name": "张良",
+    "roles": ["MAGE"],
+    "positions": ["APC", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 186,
+    "name": "钟馗",
+    "roles": ["TANK", "SUPPORT"],
+    "positions": ["SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 187,
+    "name": "老夫子",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 188,
+    "name": "曹操",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 189,
+    "name": "杨戬",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 190,
+    "name": "哪吒",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 191,
+    "name": "雅典娜",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 192,
+    "name": "橘右京",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 193,
+    "name": "宫本武藏",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 194,
+    "name": "娜可露露",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 195,
+    "name": "百里玄策",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 196,
+    "name": "裴擒虎",
+    "roles": ["ASSASSIN", "WARRIOR"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 197,
+    "name": "元歌",
+    "roles": ["ASSASSIN"],
+    "positions": ["TOP", "APC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.9
+  },
+  {
+    "id": 198,
+    "name": "梦奇",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 199,
+    "name": "猪八戒",
+    "roles": ["TANK", "WARRIOR"],
+    "positions": ["TOP", "JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 200,
+    "name": "盘古",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 201,
+    "name": "云中君",
+    "roles": ["ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 202,
+    "name": "蒙犽",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 203,
+    "name": "艾琳",
+    "roles": ["MARKSMAN"],
+    "positions": ["ADC"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 204,
+    "name": "孙策",
+    "roles": ["WARRIOR", "TANK"],
+    "positions": ["TOP", "SUPPORT"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 205,
+    "name": "李信",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 206,
+    "name": "狂铁",
+    "roles": ["WARRIOR"],
+    "positions": ["TOP"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  },
+  {
+    "id": 207,
+    "name": "刘备",
+    "roles": ["WARRIOR", "ASSASSIN"],
+    "positions": ["JUNGLE"],
+    "counters": [142, 141, 140],
+    "synergies": [116, 117, 118],
+    "tier": 0.8
+  }
+] 
+

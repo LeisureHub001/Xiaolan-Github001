@@ -1,0 +1,23 @@
+set title  " title
+set laststatus=2
+set scrolloff=3
+
+syntax enable
+set number
+set relativenumber
+set cursorline
+"set matchtime=5
+set tabstop=4
+set autoindent
+set softtabstop=4
+
+set mouse=a
+colorscheme desert
+
+
+set ignorecase
+set hlsearch
+
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>

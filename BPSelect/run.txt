@@ -1,0 +1,2 @@
+g++ -std=c++17 main.cpp algorithm.cpp hero.cpp  data/data.cpp -I. -I./include -o bpselect
+
